@@ -1,0 +1,30 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.renderLineHighlight": "all",
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true,
+    "editor.wordWrapColumn": 80,
+    "git.enableCommitSigning": true,
+    "psi-header.lang-config": [
+        {
+            "begin": "/**",
+            "language": "cpp",
+            "forceToTop": true,
+            "rootDirFileName": "viewer.h"
+        }
+    ],
+    "psi-header.templates": [
+        {
+            "language": "cpp",
+            "template": [
+                "@file <<<filerelativepath>>>",
+                "@author Prajankya Sonar - <prajankya@gmail.com>",
+                "@project OpenGL Geometry viewer <https://github.com/prajankya/OpenGLGeometryViewer>",
+                "",
+                "MIT License",
+                "Copyright (c) <<year>> Prajankya sonar"
+            ]
+        }
+    ]
+}
